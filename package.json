@@ -1,0 +1,23 @@
+{
+  "name": "IntroHCI",
+  "version": "0.0.1",
+  "author": "Intro HCI Staff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IntroHCI/lab5"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "*",
+    "jquery": "^3.1.0",
+    "nodemailer": "~0.6.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
